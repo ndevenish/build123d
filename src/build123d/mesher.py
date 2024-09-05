@@ -147,8 +147,7 @@ class Mesher:
 
     def __init__(self, unit: Unit = Unit.MM):
         self.unit = unit
-        libpath = os.path.dirname(Lib3MF.__file__)
-        self.wrapper = Lib3MF.Wrapper(os.path.join(libpath, "lib3mf"))
+        self.wrapper = Lib3MF.Wrapper()
         self.model = self.wrapper.CreateModel()
         self.model.SetUnit(Mesher._map_b3d_to_3mf_unit[unit])
         self.meshes: list[Lib3MF.MeshObject] = []
