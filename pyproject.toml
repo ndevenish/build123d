@@ -35,14 +35,13 @@ classifiers = [
 ]
 
 dependencies = [
-    "cadquery-ocp >= 7.8, < 7.9",
     "typing_extensions >= 4.6.0, < 5",
     "numpy >= 2, < 3",
     "svgpathtools >= 1.5.1, < 2",
     "anytree >= 2.8.0, < 3",
     "ezdxf >= 1.1.0, < 2",
     "ipython >= 8.0.0, < 9",
-    "py-lib3mf >= 2.3.1",
+    "lib3mf >= 2.3.1",
     "ocpsvg >= 0.4",
     "trianglesolver",
 ]
