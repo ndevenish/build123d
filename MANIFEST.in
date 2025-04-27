@@ -1,2 +1,4 @@
 # exclude build123d._dev from sdists
 prune src/build123d/_dev
+include src/build123d/template_render.js
+include src/build123d/py.typed
